@@ -49,14 +49,32 @@
         </div>
       </nav>
     </header>
+    <section class="intro">
+      <div class="container text-center">
+        <h2>Welcome to Xena's K9 Paradise</h2>
+        <p>
+          Discover amazing dog breeds from around the world. Use the search
+          below to explore a library of photos to help you find the perfect K9
+          companion. At the top of the page you can find links to breed sizes
+          and additional information.
+        </p>
+      </div>
+    </section>
     <section class="bg-photo-main">
       <div class="shield">
-        <h2>Dog Breed Search</h2>
-        <!--start-Connects to JavaScript-->
-        <input type="text" id="searchInput" placeholder="Enter keyword" />
-        <button id="searchBtn">Search</button>
-        <div id="results"></div>
-        <!--end-->
+        <h2 class="mb-3">Dog Breed Search</h2>
+
+        <div class="input-group">
+          <input
+            type="text"
+            id="searchInput"
+            class="form-control"
+            placeholder="Enter keyword"
+          />
+          <button id="searchBtn" class="btn btn-primary">Search</button>
+        </div>
+
+        <div id="results" class="mt-4"></div>
       </div>
     </section>
     <script src="script.js"></script>

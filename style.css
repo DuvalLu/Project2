@@ -2,29 +2,42 @@
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
+body {
+  margin: 0;
+}
+
 .bg-photo-main {
-  background-image: url(./Images/bgMainPage.jpg);
+  background-image: url("./Images/bgMainPage.jpg");
   background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-position: center center;
-  color: rgb(4c, 2b, 36);
-  margin: 0%;
-  padding-top: 1%;
-  padding-bottom: 10%;
-  display: inline-flexbox;
-  font-weight: bolder;
+  padding: 40px 20px;
+  min-height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  text-align: center;
+  color: #4c2b36;
+}
+
+.shield {
+  background: rgba(255, 255, 255, 0.85);
+  padding: 30px;
+  border-radius: 12px;
+  max-width: 500px;
+  width: 90%;
 }
 
 #results {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-  gap: 10px;
-  margin-top: 20px;
+  gap: 20px;
 }
 
 #results img {
   width: 100%;
-  height: auto;
-  border-radius: 8px;
+  border-radius: 10px;
 }

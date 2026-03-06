@@ -16,3 +16,7 @@
 https://github.com/DuvalLu/Project2.git
 
 https://duvallu.github.io/Project2/
+
+### Giphy API Key:
+
+https://api.giphy.com/v1/gifs/search?api_key=ioTvN6JBuQyd7qdLS9HQxWgem1AHNkOg&q=${keyword}&limit=12

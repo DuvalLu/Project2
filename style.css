@@ -7,7 +7,7 @@ body {
 }
 
 .bg-photo-main {
-  background-image: url("./Images/bgMainPage.jpg");
+  background-image: url(./Images/bgMainPage2.avif);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -24,11 +24,16 @@ body {
 }
 
 .shield {
-  background: rgba(255, 255, 255, 0.85);
-  padding: 30px;
-  border-radius: 12px;
-  max-width: 500px;
+  max-width: 800px;
   width: 90%;
+  margin: auto;
+  padding: 30px;
+  background: rgba(255, 255, 255, 0.85);
+  border-radius: 12px;
+}
+
+.intro {
+  padding: 40px 20px;
 }
 
 #results {

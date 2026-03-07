@@ -35,3 +35,4 @@ https://api.giphy.com/v1/gifs/search?api_key=ioTvN6JBuQyd7qdLS9HQxWgem1AHNkOg&q=
     1. Currently uses giphy API that returns some random photos when searching specific dog breeds. New API that is more dog breed focused and only returns relevant information.
     2. Add additional breed sizes and classes: including toy, extra large, working class, etc.
     3. Find/Replace photos with photos that are more clear and crisp. Photos are stretched/pixel issue.
+    4. Need to write code that allows 'Enter' to also load search feature.

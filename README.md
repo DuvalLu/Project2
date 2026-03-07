@@ -20,3 +20,12 @@ https://duvallu.github.io/Project2/
 ### Giphy API Key:
 
 https://api.giphy.com/v1/gifs/search?api_key=ioTvN6JBuQyd7qdLS9HQxWgem1AHNkOg&q=${keyword}&limit=12
+
+#### User Stories:
+
+    1. As a user, I would like to be able to view photos of different dog breeds.
+    2. As a user, I would like access to breed size information and attributes.
+    3. As a user, I would like a search function to return photos of dog breeds.
+    4. As a user, I would like the site to explain what it's about and how to use it.
+    5. As a user, I would like to navigate between different dog breed sizes/information easily.
+    6. As a user, I would like to also do all this via mobile device.

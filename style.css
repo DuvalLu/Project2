@@ -43,12 +43,72 @@ body {
   color: #4c2b36;
 }
 
+.bg-photo-3 {
+  background-image: url(./Images/miniDachs.webp);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  padding: 40px 20px;
+  min-height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  text-align: center;
+  color: #4c2b36;
+}
+
+.bg-photo-4 {
+  background-image: url(./Images/mediumDogs.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  padding: 40px 20px;
+  min-height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  text-align: center;
+  color: #4c2b36;
+}
+
+.bg-photo-5 {
+  background-image: url(./Images/largeDogsBg.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  padding: 40px 20px;
+  min-height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  text-align: center;
+  color: #4c2b36;
+}
+
 .shield {
   max-width: 800px;
   width: 90%;
   margin: auto;
   padding: 30px;
   background: rgba(255, 255, 255, 0.85);
+  border-radius: 12px;
+}
+
+.shield2 {
+  max-width: 800px;
+  width: 90%;
+  margin: auto;
+  padding: 30px;
+  background: rgba(255, 255, 255, 0.6);
   border-radius: 12px;
 }
 

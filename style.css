@@ -126,3 +126,16 @@ body {
   width: 100%;
   border-radius: 10px;
 }
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 1 rem;
+  }
+  h2 {
+    font-size: 1.5 rem;
+  }
+
+  p {
+    font-size: 1 rem;
+  }
+}

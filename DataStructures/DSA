@@ -1,0 +1,123 @@
+1. Linear Data Structures
+
+A linear data structure is a type of data structure in which elements are arranged sequentially in a single line. Each element (except the first and last) has one predecessor and one successor.
+
+Characteristics:
+Elements are stored in a linear order.
+Traversal happens sequentially (one by one).
+Easier to implement compared to non-linear structures.
+
+Examples:
+Arrays
+Linked Lists
+Stacks
+Queues
+
+a. Arrays
+
+An array is a data structure that stores a collection of elements of the same type in contiguous memory locations. Each element is accessed using an index (position).
+
+Key points:
+Fixed size (in most languages).
+Fast access using index (e.g., arr[2]).
+Elements stored next to each other in memory.
+
+b. Linked Lists
+
+A linked list is a linear data structure where elements (called nodes) are not stored in contiguous memory. Each node contains:
+
+Data
+A reference (pointer) to the next node in the list.
+Key points:
+Dynamic size.
+Efficient insertion and deletion.
+Sequential access (cannot directly access by index).
+
+c. Stacks
+
+A stack is a linear data structure that follows the LIFO principle (Last In, First Out).
+
+Key operations:
+
+Push: Add an element to the top.
+Pop: Remove the top element.
+Peek/Top: View the top element.
+
+d. Queues
+
+A queue is a linear data structure that follows the FIFO principle (First In, First Out).
+
+Key operations:
+
+Enqueue: Add element at the rear.
+Dequeue: Remove element from the front.
+
+Quick comparison
+
+Data Structure	 Principle	        Insertion	            Deletion
+Array	         Indexed storage	Anywhere (by index)	    Anywhere
+Linked List	     Node connections	Easy	                Easy
+Stack	         LIFO	            Top	                    Top
+Queue	         FIFO	            Rear	                Front
+
+
+
+Data Structure	Type	                    Main Idea
+Tree	        Non-linear	                Hierarchical structure of nodes
+Graph	        Non-linear	                Nodes connected by edges
+Heap	        Non-linear (special tree)	Binary tree with heap property
+
+
+2. Non-Linear Data Structures
+
+A non-linear data structure is a structure where elements are not arranged sequentially. Instead, elements are connected in a hierarchical or network-like structure.
+
+Characteristics:
+
+One element can connect to multiple elements.
+Data is stored in different levels or branches.
+Traversal follows multiple paths.
+
+Examples:
+
+Trees
+Graphs
+
+
+a. Trees
+
+A tree is a non-linear data structure that organizes data in a hierarchical structure. It consists of nodes connected by edges, with one top node called the root.
+
+Key characteristics:
+
+The top element is called the root.
+Each node may have child nodes.
+Nodes are connected in parent–child relationships.
+There are no cycles.
+
+b. Graphs
+
+A graph is a non-linear data structure consisting of a set of vertices (nodes) connected by edges. Graphs are used to represent relationships between objects.
+
+Key characteristics:
+
+Nodes are called vertices.
+Connections are called edges.
+Can be directed or undirected.
+Can contain cycles.
+
+c. Heaps
+
+A heap is a special type of binary tree that satisfies the heap property. It is commonly used to implement priority queues.
+
+Types of heaps:
+
+1. Max Heap
+
+The parent node is greater than or equal to its children.
+The largest element is at the root.
+
+2. Min Heap
+
+The parent node is smaller than or equal to its children.
+The smallest element is at the root.
